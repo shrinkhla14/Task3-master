@@ -1,0 +1,433 @@
+{
+	"year": 2011,
+	"department": "ece",
+	"questions": [{
+			"question_number": 1,
+			"question": "Consider the following statements regarding the complex Poynting vector P for the power radiated by a point source in an infinite homogeneous and lossless medium.Re(P) denotes the real part of P.S denotes a spherical surface whose centre is at the point source,and ɵndenotes the unit surface normal on S.Which of the following statements is TRUE ? ",
+			"options": ["Re (P)  remains constant at any radial distance from the source", "Re (P)  increases with increasing radial distance from the source ", "∫∫s Re(P).ndS remains constant at any radial distance from the source", "∫∫s Re P .n dS  decreases with increasing radial distance form the source "],
+			"correct_answer": "∫∫s Re P.n dS decreases with increasing radial distance form the source ",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 2,
+			"question": " A transmission line of characteristic impedance 50Ω is terminated by a 50Ω load. When excited by a sinusoidal voltage source at 10GHz, the phase difference between two points spaced 2mm apart on the line is found to be 4/π radians. The phase velocity of the wave along the line is ",
+			"options": ["8 0.8 10 m / s ", "1.2 10 m / s × ", "1.6 10 m / s × ", "3 10 m / s"],
+			"correct_answer": "1.6 10 m / s × ",
+			"correct_option_number": 3
+		},
+		{
+			"question_number": 3,
+			"question": "An analog signal is band-limited to 4kHz, sampled at the Nyquist rate and the samples are quantized into 4 levels. The quantized levels are assumed to be independent and equally probable. If we transmit two quantized samples per second, the information rate is ________ bits / second. ",
+			"options": ["1", "2", "3", "4"],
+			"correct_answer": "4",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 4,
+			"question": "The root locus plot for a system is given below. The open loop transfer function corresponding to this plot is given by",
+			"options": ["G(s)H(s)= k(s(s+1)/(s+2)(s+3))", " G(s)H(s)= k((s+1)/s(s+2)(s+3)(s+3))", " G(s)H(s)= k(1/s(s-1)(s+2)(s+3))", "G(s) H(s) = k((s + 1) / s(s + 2)(s + 3))"],
+			"correct_answer": "G(s) H(s) = k((s + 1) / s(s + 2)(s + 3)(s + 3))",
+			"correct_option_number": 2
+		},
+		{
+			"question_number": 5,
+			"question": "A system is defined by its impulse response h(n ) =2^nu(n-2) . The system is ",
+			"options": ["stable and causal ", " causal but not stable ", "stable but not causal ", "unstable and non-causal "],
+			"correct_answer": " causal but not stable ",
+			"correct_option_number": 2
+		},
+		{
+			"question_number": 6,
+			"question": " If the unit step response of a network is (1-e^-at) , then its unit impulse response is ",
+			"options": ["ae^-at", "a^-1e^-at", "(1-a^-1)e^-at", "(1-a)^-at"],
+			"correct_answer": " ae^-at ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 7,
+			"question": " The output Y in the circuit below is always ‘1’ when ",
+			"options": ["two or more of the inputs P,Q,R are ‘0’ ", "  two or more of the inputs P,Q,R are ‘1’ ", " any odd number of the inputs P,Q,R is ‘0’ ", " any odd number of the inputs P,Q,R is ‘1’ "],
+			"correct_answer": " two or more of the inputs P,Q,R are ‘1’ ",
+			"correct_option_number": 2
+		},
+
+		{
+			"question_number": 8,
+			"question": " In the circuit shown below, capacitors C1 and C2 are very large and are shorts at the input frequency. vi is a small signal input. The gain magnitude |v0/vi| at 10M rad/s is ",
+			"options": ["maximum", "minimum", "unity", "zero"],
+			"correct_answer": " maximum ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 9,
+			"question": " Drift current in the semiconductors depends upon",
+			"options": ["only the electric field ", "only the carrier concentration gradient ", "both the electric field and the carrier concentration", " both the electric field and the carrier concentration gradient "],
+			"correct_answer": " both the electric field and the carrier concentration ",
+			"correct_option_number": 3
+		},
+		{
+			"question_number": 10,
+			"question": "A Zener diode, when used in voltage stabilization circuits, is biased in ",
+			"options": ["reverse bias region below the breakdown voltage  ", "reverse breakdown region  ", "forward bias region", "forward bias constant current node"],
+			"correct_answer": "  reverse breakdown region ",
+			"correct_option_number": 2
+		},
+		{
+			"question_number": 11,
+			"question": "The circuit shown below is driven by a sinusoidal input ( ) v V cos t /RC i p = . The steady state output v0 is",
+			"options": ["(V0/3)cos(t/RC)", " (V0/3)sin(t/RC) ", "( V0/2)cos(t/RC )", "( V0/2)sin(t/RC )"],
+			"correct_answer": "(V0/3)cos(t/RC)",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 12,
+			"question": "Consider a closed surface S surrounding volume V. If r  is the position vector of a point inside S, with ɵn the unit normal on S, the value of the integral s 5r.ndS ∫∫ ɵ  is ",
+			"options": ["3V", "5V", "10V", "15V"],
+			"correct_answer": "15V ",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 13,
+			"question": "The modes in a rectangular waveguide are denoted by mn mn TEnm/ TMnm where m and n are the eigen numbers along the larger and smaller dimensions of the waveguide respectively. Which one of the following statements is TRUE? ",
+			"options": ["The TM10 mode of the wave does not exist", "The TE10 mode of the wave does not exist ", "The TM10 and the TE10 modes both exist and have the same cut-off frequencies ", "The TM10 and TM01 modes both exist and have the same cut-off frequencies "],
+			"correct_answer": " The TM10 mode of the wave does not exist ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 14,
+			"question": " The solution of the differential equation dy/dx= ky, (y) 0= c  is ",
+			"options": ["x=ce^-ky", "x=ke^cy", "y=ce^kx", "y=ce^-kx"],
+			"correct_answer": " y=ce^kx ",
+			"correct_option_number": 3
+		},
+		{
+			"question_number": 15,
+			"question": " The Column-I lists the attributes and the Column-II lists the modulation systems. Match the attribute to the modulation system that best meets it Column-I Column-II P Power efficient transmission of signals 1 Conventional AM Q Most bandwidth efficient transmission of voice signals 2 FM R Simplest receiver structure 3 VSB S Bandwidth efficient transmission of signals with Significant dc component 4 SSB-SC ",
+			"options": ["P-4;Q-2;R-1;S-3 ", " P-2;Q-4;R-1;S-3 ", " P-3;Q-2;R-1;S-4 ", " P-2;Q-4;R-3;S-1 "],
+			"correct_answer": " P-2;Q-4;R-1;S-3  ",
+			"correct_option_number": 2
+		},
+		{
+			"question_number": 18,
+			"question": " The trigonometric Fourier series of an even function does not have the ",
+			"options": ["dc term", "odd term", "sine term", " odd harmonic terms "],
+			"correct_answer": " sine term",
+			"correct_option_number": 3
+		},
+		{
+			"question_number": 19,
+			"question": " When the output Y in the circuit below is ‘1’, it implies that data has",
+			"options": ["changed from 0 to 1 ", " changed from 1 to 0 ", " changed in either direction ", " not changed "],
+			"correct_answer": " changed from 0 to 1  ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 20,
+			"question": " The logic function implemented by the circuit below is (ground implies logic 0) ",
+			"options": ["F= AND (P,Q )", " F= OR (P,Q )", " F= XNOR (P,Q )", " F= XOR (P,Q )"],
+			"correct_answer": " F= XOR (P,Q ) ",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 21,
+			"question": " The circuit below implements a filter between the input current ii and the output voltage vo. Assume that the opamp is ideal. The filter implemented is a ",
+			"options": ["low pass filter", " band pass filter ", " band stop filter", " high pass filter "],
+			"correct_answer": " high pass filter  ",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 22,
+			"question": "A silicon PN junction is forward biased with a constant current at room temperature. When the temperature is increased by 10ºC, the forward bias voltage across the PN junction ",
+			"options": ["increases by 60mV ", "decreases by 60mV ", "increases by 25mV", "decreases by 25mV "],
+			"correct_answer": "decreases by 25mV  ",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 23,
+			"question": "In the circuit shown below, the Norton equivalent current in amperes with respect to the terminals P and Q is ",
+			"options": ["6.4 - j4.8 ", "6.56 - j7.87 ", "10 + j0", "16 + j0"],
+			"correct_answer": "6.4 - j4.8  ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 24,
+			"question": "In the circuit shown below, the value of RL such that the power transferred to RL is maximum is ",
+			"options": ["5Ω", "10 Ω", "15 Ω", "15 Ω 20 Ω "],
+			"correct_answer": "15 Ω ",
+			"correct_option_number": 3
+		},
+		{
+			"question_number": 25,
+			"question": "The value of the integral ∫(-3Z+4)/(Z62+4Z+5) where c is the circle z 1= is given by",
+			"options": ["0", "1/10", "4/5", "1"],
+			"correct_answer": "0 ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 26,
+			"question": "A current sheet ɵ J =10uY A/m  lies on the dielectric interface x=0 between two dielectric media with εR1 =5, µR1 = 1  in Region -1 (X<0) and Εr2 =5, µR2 = 2 Region -2(x>0).    If the magnetic field in Region-1 at x=0- is  H1 3ux + 30uy A /m the magnetic field in Region-2 at x=0+ is ",
+			"options": ["H2=1.5ux+30uy-10u2A/m", "H2=3ux+30uy-10u2A/m", "H2=1.5ux+40uy A/m", "H2=3ux+30uy+10uzA/m"],
+			"correct_answer": " H2=1.5ux+30uy-10u2A/m ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 27,
+			"question": " A transmission line of characteristic impedance 50W is terminated in a load impedance ZL. The VSWR of the line is measured as 5 and the first of the voltage maxima in the line is observed at a distance of λ/4 from the load. The value of ZL is ",
+			"options": ["10Ω ", " 250 Ω ", " (19.23+j46.15 )Ω ", " (19.23- j46.15 ) Ω "],
+			"correct_answer": "10Ω ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 28,
+			"question": "X(t) is a stationary random process with autocorrelation function   R(τ)= exp (r^2π) . This process is passed through the system shown below. The power spectral density of the output process Y(t) is ",
+			"options": ["(4 π ^2f^2+1)exp(-π f^2)", "(4 π ^2f^2-1)exp(-π f^2)", "(4 π ^2f^2+1)exp(-π f)", "(4 π ^2f^2-1)exp(-π f)"],
+			"correct_answer": "(4 π ^2f^2+1)exp(-π f^2) ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 30,
+			"question": "Two D flip-flops are connected as a synchronous counter that goes through the following QBQA sequence 00 11 01 10 00 … The combination to the inputs DA and DB are ",
+			"options": ["DA=QB ; DB=Q A", "DA=QA;DB=QB", "DA=(QAQB+QAQB);DB=QA", "DA=(QAQB+QAQB);DB=QB"],
+			"correct_answer": " DA=(QAQB+QAQB);DB=QB ",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 31,
+			"question": "In the circuit shown below, for the MOS transistors, µnC ox =100µ  A / V^2 and the threshold voltage VT= 1V.  The voltage Vx at the source of the upper transistor is ",
+			"options": ["1V", "2V", "3V", "3.67V"],
+			"correct_answer": " 3V",
+			"correct_option_number": 3
+		},
+		{
+			"question_number": 32,
+			"question": "An input x (t)= exp(-2t) u(t)+ δ(t-6)  is applied to an LTI system with impulse response h (t)= u(t)  . The output is is",
+			"options": ["[1-exp(-2t)]u(t)+u(t+6)", "[1-exp(-2t)]u(t)+u(t-6)", "0.5[1-exp(-2t)]u(t)+u(t+6)", "0.5[1-exp(-2t)]u(t)+u(t-6)"],
+			"correct_answer": " 0.5[1-exp(-2t)]u(t)+u(t-6)",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 33,
+			"question": "For a BJT the common base current gain α = 0.98 and the collector base junction reverse bias saturation current  Ico= 0.6 µ A. This BJT is connected in the common emitter mode and operated in the active region with a base drive current IB=20XA. The collector current IC for this mode of operation is ",
+			"options": ["0.98mA ", " 0.99mA ", " 1.0mA ", " 1.01mA "],
+			"correct_answer": " 1.01mA ",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 35,
+			"question": " In the circuit shown below, the current I is equal to ",
+			"options": ["14|0ºA ", " 2.0 |0ºA ", " 2.8 |0ºA ", " 3.2 |0ºA "],
+			"correct_answer": " 2.0 |0ºA ",
+			"correct_option_number": 2
+		},
+		{
+			"question_number": 36,
+			"question": "A numerical solution of the equation f(x)=x+sqrt(x-3)-0 can be obtained using Newton- Raphson method. If the starting value is x = 2 for the iteration, the value of x that is to be used in the next step is ",
+			"options": ["0.306", "0.739", "1.694", "2.306"],
+			"correct_answer": "1.694 ",
+			"correct_option_number": 3
+		},
+		{
+			"question_number": 37,
+			"question": "A numerical solution of the equation f x x x 3 0 ( ) = + − = can be obtained using Newton- Raphson method. If the starting value is x = 2 for the iteration, the value of x that is to be used in the next step is  E=Epe^j(wt-280 πy)u2V/m  H=3e^j(wt-280 πy)uxA/m Assuming the speed of light in free space to be 3 x 108 m/s, the intrinsic impedance of free space to be 120π , the relative permittivity r ε of the medium and the electric field amplitude Ep are ",
+			"options": ["εt=3t, Ep=120π", " εt =3t,Ep=360 π ", " εt =9, Et=360 π ", " εt =9, Et=120 π "],
+			"correct_answer": " εt =9, Et=120 π ",
+			"correct_option_number": 4
+		},
+		{
+			"question_number": 34,
+			"question": "If F(s)=L[f(t)]=Lt 2(s+1)/(s^2+4s+7)=2 then initial and final values of F(t) are:",
+			"options": ["0,2", "2,0", "0,2/7", "2/7,0"],
+			"correct_answer": "2,0 ",
+			"correct_option_number": 2
+		},
+		{
+			"question_number": 38,
+			"question": " A message signal m(t)= cos 200 πt+ 4 cos πt  modulates the carrier c(t)=cos2 πfct where fc= 1 MHZ  to produce an AM signal. For demodulating the generated AM signal using an envelope detector, the time constant RC of the detector circuit should satisfy ",
+			"options": ["0.5ms<RC<1ms", " 1 µ s <<RC< 0.5 ms ", " RC << µs ", "  RC 0.5 >>ms "],
+			"correct_answer": "1 µ s <<RC< 0.5 ms ",
+			"correct_option_number": 1
+		},
+		{
+			"question_number": 40,
+			"question": "Two systems H1 (z) and H2 (z) are connected in cascade as shown below. The overall output y(n) is the same as the input x(n) with a one unit delay. The transfer function of the second system H2 (z) is ",
+			"options": ["(1-0.6z^-1)/(z^-1(1-0.4z^-1)", "z^/-1(1-0.6z^-1)/(1-0.4z^-1)", "z^-1(1-0.4z^-1)/(1-0.6z^-1)", "(1-0.4z^-1)/z^-1(1-0.6z^-1)"],
+			"correct_answer": " z^/-1(1-0.6z^-1)/(1-0.4z^-1 ",
+			"correct_option_number": 2
+		},
+		{
+			"question_number": 41,
+			"question": "An 8085 assembly language program is given below. Assume that the carry flag is initially unset. The content of the accumulator after the execution of the program is ",
+			"options": ["8CH", "64H", "23H", "15H"],
+			"correct_answer": "23H ",
+			"correct_option_number": 3
+		},
+		{
+			"question_number": 42,
+			"question": "The first six points of the 8-point DFT of a real valued sequence are5, 1-  j3,0,3- j4, 0 and 3+ j4. . The last two points of the DFT are respectively ",
+			"options": ["0, 1-j3 ", "0, 1+j3 ", "1+j3, 5 ", "1 – j3, 5 "],
+			"correct_answer": "1+j3, 5 ",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 43,
+			"question": "For the BJT QL in the circuit shown below, β = ∞ ,VBEon=0.75,VCEat=0.7V  The switch is initially closed. At time t = 0, the switch is opened. The time t at which Q1 leaves the active region is ",
+			"options": ["10ms", "25ms", "50ms", "100ms"],
+			"correct_answer": "50ms ",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 45,
+			"question": " In the circuit shown below, the initial charge on the capacitor is 2.5 mC, with the voltage polarity as indicated. The switch is closed at time t=0. The current i(t) at a time t after the switch is closed is ",
+			"options": ["i(t)= 15 exp (-2 x 10^3 t) A ", " i(t)= 5 exp (-2 x 10^3 t) A ", "10 exp (-2 x 10^3 t) A ", "-5 exp (-2 x 10^3 t) A "],
+			"correct_answer": " i(t)= 15 exp (-2 x 10^3 t) A ",
+			"correct_option_number": 1
+		},
+
+		{
+			"question_number": 46,
+			"question": " The system of equations  x+y+z=6, x+4y+6z=20, x+ 4y+ λz = µ ",
+			"options": ["λ =6, µ = 20 ", " λ =6, µ != 20 ", " λ !=6, µ = 20 ", " λ !=6, µ ! = 20 "],
+			"correct_answer": " λ =6, µ != 20  ",
+			"correct_option_number": 2
+		},
+
+		{
+			"question_number": 47,
+			"question": " A fair dice is tossed two times. The probability that the second toss results in a value that is higher than the first toss is ",
+			"options": ["2/36", "2/6", "5/12", "1/2"],
+			"correct_answer": " 5/12",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 48,
+			"question": " The channel resistance of an N-channel JFET shown in the figure below is 600 Ω when the full channel thickness (tch) of 10 mµ is available for conduction. The built-in voltage of the gate P+ N junction (Vbi) is -1 V. When the gate to source voltage (VGS) is 0 V, the channel is depleted by 1 mµ on each side due to the builtin voltage and hence the thickness available for conduction is only 8 m The channel resistance when VGS = -3 V is ",
+			"options": ["360Ω ", " 917Ω ", " 1000Ω", " 3000Ω"],
+			"correct_answer": "917Ω ",
+			"correct_option_number": 2
+		},
+
+		{
+			"question_number": 49,
+			"question": "The channel resistance when VGS = 0 V is ",
+			"options": ["480Ω ", "600Ω ", "750Ω ", "1000Ω "],
+			"correct_answer": "750Ω ",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 50,
+			"question": "The input-output transfer function of a plant  H(s)=100/s(s+10^2) The plant is placed in a unity negative feedback configuration as shown in the figure below. The gain margin of the system under closed loop unity negative feedback is ",
+			"options": ["0dB ", "20dB ", "26 dB ", "46 dB "],
+			"correct_answer": "26 dB ",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 52,
+			"question": "In the circuit shown below, assume that the voltage drop across a forward biased diode is 0.7 V. The thermal voltage V t =  kT / q= 25mV. The small signal input vt=Vp cos(wt) where Vp= 100mV The bias current IDC through the diodes is ",
+			"options": ["1mA", "1.2mA", "1.5mA", "2mA"],
+			"correct_answer": "1mA ",
+			"correct_option_number": 1
+		},
+
+		{
+			"question_number": 53,
+			"question": " The ac output voltage vac is ",
+			"options": ["0.25 cos(ωt)   mV", " 1 cos (ωt)   mV", " 2 cos (ωt)  mV ", "22 cos (ωt)  mV "],
+			"correct_answer": "2 cos (ωt)  mV ",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 54,
+			"question": "A four-phase and an eight-phase signal constellation are shown in the figure below. For the constraint that the minimum distance between pairs of signal points be d for both constellations, the radii r1, and r2 of the circles are ",
+			"options": ["r1= 0.707d, r2= 2.782d  ", "r1= 0.707d, r2= 1.932d ", "r1= 0.707d, r2= 1.545d ", "r1= 0.707d, r2= 1.307d "],
+			"correct_answer": " r1= 0.707d, r2= 1.307d  ",
+			"correct_option_number": 4
+		},
+
+		{
+			"question_number": 55,
+			"question": " Assuming high SNR and that all signals are equally probable, the additional average transmitted signal energy required by the 8-PSK signal to achieve the same error probability as the 4-PSK signal is ",
+			"options": ["11.90 dB", " 8.73 dB ", " 6.79 dB", " 5.33 dB "],
+			"correct_answer": " 5.33 dB  ",
+			"correct_option_number": 4
+		},
+
+		{
+			"question_number": 56,
+			"question": " There are two candidates P and Q in an election. During the campaign, 40% of the voters promised to vote for P, and rest for Q. However, on the day of election 15% of the voters went back on their promise to vote for P and instead voted for Q. 25% of the voters went back on their promise to vote for Q and instead voted for P. Suppose, P lost by 2 votes, then what was the total number of voters? ",
+			"options": ["100", "110", "90", "95"],
+			"correct_answer": " 100",
+			"correct_option_number": 1
+		},
+
+		{
+			"question_number": 57,
+			"question": " Choose the most appropriate word from the options given below to complete the following sentence: It was her view that the country's problems had been_________ by foreign technocrats, so that to invite them to come back would be counter-productive. ",
+			"options": ["Identified ", " ascertained ", " Texacerbated ", " Analysedol "],
+			"correct_answer": " Texacerbated ",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 58,
+			"question": " Choose the word from the options given below that is most nearly opposite in meaning to the given word: Frequency ",
+			"options": ["periodicity ", " rarity ", " gradualness ", " persistency "],
+			"correct_answer": "rarity ",
+			"correct_option_number": 2
+		},
+
+		{
+			"question_number": 59,
+			"question": " Choose the most appropriate word from the options given below to complete the following sentence: Under ethical guidelines recently adopted by the Indian Medical Association, human genes are to be manipulated only to correct diseases for which______________ treatments are unsatisfactory. ",
+			"options": ["Similar ", " Most ", " Uncommon ", "  Available "],
+			"correct_answer": " Available ",
+			"correct_option_number": 4
+
+		},
+
+		{
+			"question_number": 60,
+			"question": " The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair: Gladiator : Arena ",
+			"options": ["dancer : stage ", " commuter: train ", " teacher : classroom ", "lawyer: courtroom"],
+			"correct_answer": " lawyer : courtroom ",
+			"correct_option_number": 4
+		},
+
+		{
+			"question_number": 62,
+			"question": " Three friends, R, S and T shared toffee from a bowl. R took 1/3rd of the toffees, but returned four to the bowl. S took 1/4th of what was left but returned three toffees to the bowl. T took half of the remainder but returned two back into the bowl. If the bowl had 17 toffees left, how many toffees-were originally there in the bowl? ",
+			"options": ["38", "31", "48", "41"],
+			"correct_answer": " 48",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 63,
+			"question": " Given that f(y) = | y | / y, and q is any non-zero real number, the value of | f(q) - f(-q) | is ",
+			"options": ["0", "-1", "1", "2"],
+			"correct_answer": "2 ",
+			"correct_option_number": 4
+		},
+
+		{
+			"question_number": 64,
+			"question": " The sum of n terms of the series 4+44+444+.... is ",
+			"options": ["(4/81)[10^n+1-9n-1]", "(4/81)[10^n-1-9n-1]", "(4/81)[10^n+1-9n-10]", "(4/81)[10^n+1-9n-10]"],
+			"correct_answer": "(4/81)[10^n+1-9n-10 ",
+			"correct_option_number": 3
+		},
+
+		{
+			"question_number": 65,
+			"question": "The horse has played a little known but very important role in the field of medicine. Horses were injected with toxins of diseases until their blood built up immunities. Then a serum was made from their blood. Serums to fight with diphtheria and tetanus were developed this way. It can be inferred from the passage that horses were",
+			"options": ["given immunity to diseases ", "generally quite immune to diseases", "given medicines to fight toxins ", "given diphtheria and tetanus serums "],
+			"correct_answer": " generally quite immune to diseases ",
+			"correct_option_number": 2
+		}
+	]
+}
